@@ -21,13 +21,13 @@
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Описание</a>
+                            <a href="#info" class="menu__link">Описание</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Характеристики</a>
+                            <a href="#characteristics" class="menu__link">Характеристики</a>
                         </li>
                         <li class="menu__item">
-                            <a href="#" class="menu__link">Стоимость</a>
+                            <a href="#price" class="menu__link">Стоимость</a>
                         </li>
                     </ul>
                 </nav>
@@ -71,7 +71,7 @@
             </div>
         </div>
     </section>
-    <section class="info">
+    <section class="info" id="info">
         <div class="container">
             <div class="info__inner">
                 <img class="info__img" src="images/01-jpg-17 1.jpg" alt="Фото">
@@ -94,7 +94,7 @@
             </div>
         </div>
     </section>
-    <section class="characteristics">
+    <section class="characteristics" id="characteristics">
         <div class="container">
             <h4 class="characteristics__head">
                 ХАрактеристики
@@ -296,7 +296,7 @@
             </div>
         </div>
     </div>
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <div class="price__inner">
                 <div class="price__info">
@@ -315,7 +315,7 @@
                                 <input class="form__input-radio" type="radio" name="radio">
                                 <div class="form__bike">
                                     <img class="form__bike-img" src="images/bike-grey.jpg" alt="bike-grey">
-                                    <p class="form__bike-price">32999 грн.</p>
+                                    <p class="form__bike-price"><span>32999 грн.</span></p>
                                 </div>
                                 <div class="form__radio-style form__radio-style--grey"></div>
                             </label>
@@ -323,7 +323,7 @@
                                 <input class="form__input-radio" type="radio" name="radio" checked>
                                 <div class="form__bike">
                                     <img class="form__bike-img" src="images/bike-white.jpg" alt="bike-white">
-                                    <p class="form__bike-price">32999 грн.</p>
+                                    <p class="form__bike-price"><span>32999 грн.</span></p>
                                 </div>
                                 <div class="form__radio-style form__radio-style--white"></div>
                             </label>
@@ -331,7 +331,7 @@
                                 <input class="form__input-radio" type="radio" name="radio">
                                 <div class="form__bike">
                                     <img class="form__bike-img" src="images/bike-red.jpg" alt="bike-red">
-                                    <p class="form__bike-price">32999 грн.</p>
+                                    <p class="form__bike-price"><span>32999 грн.</span></p>
                                 </div>
                                 <div class="form__radio-style form__radio-style--red"></div>
                             </label>
@@ -345,6 +345,31 @@
             </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a class="footer_link" href="#">Политика конфиденциальности</a>
+                <div class="footer__social">
+                    <a class="footer__social-link" href="#">
+                        <img class="footer-social-img" src="images/инст.png" alt="Мессенджер">
+                    </a>
+                    <a class="footer__social-link" href="#">
+                        <img class="footer-social-img" src="images/facebook.png" alt="Мессенджер">
+                    </a>
+                </div>
+                <div class="footer__contacts">
+                    <a class="footer__contacts-link" href="+380506777777">
+                        <img class="footer__contacts-img" src="images/Vector.png" alt="телефон">
+                        <span>+38 050 677 77 77</span>
+                    </a>
+                    <a class="footer__contacts-link" href="elektrobikeukr@gmail.com">
+                        <img class="footer__contacts-img" src="images/Group.png" alt="емейл">
+                        <span>elektrobikeukr@gmail.com</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>    
